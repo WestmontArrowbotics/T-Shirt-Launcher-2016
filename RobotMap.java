@@ -3,6 +3,8 @@
 
 import edu.wpi.first.wpilibj.CANTalon;
 import edu.wpi.first.wpilibj.RobotDrive;
+import edu.wpi.first.wpilibj.Solenoid;
+import edu.wpi.first.wpilibj.Compressor;
 
 public class RobotMap {
 	public static CANTalon frontLeft;
@@ -12,8 +14,8 @@ public class RobotMap {
     
 	public static RobotDrive driveRobot;
     
-    public static Solenoid solenoid;
-    public static Compressor compressor;
+	public static Solenoid solenoid;
+	public static Compressor compressor;
 	
 	public static void init() {
         frontRight = new CANTalon(1);
