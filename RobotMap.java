@@ -15,7 +15,7 @@ public class RobotMap {
     
 	public static RobotDrive driveRobot;
     
-	public static Solenoid solenoid;
+	public static DoubleSolenoid solenoid;
 	public static Compressor compressor;
 	
 	public static void init() {
