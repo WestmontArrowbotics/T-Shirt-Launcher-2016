@@ -19,6 +19,7 @@ public class RobotMap {
 	public static Compressor compressor;
 	
 	public static void init() {
+		compressor = new Compressor(1); //Q about PCM Node ID? 
 		frontRight = new CANTalon(1);
 		backRight = new CANTalon(2);
 		backLeft = new CANTalon(3);
